@@ -47,18 +47,18 @@ const Wrapper = styled.div`
 
 const LeftColumn = styled.div`
   position: sticky;
-  padding: 0 32px;
+  padding: 8px 32px;
   left: 0;
   top: 0;
 `;
 
 const MainColumn = styled.div`
   flex: 1;
+  padding: 0 32px;
 `;
 
 const Header = styled.header`
   display: flex;
-  padding-left: 312px;
 `;
 
 const Title = styled.h2`
